@@ -1,0 +1,5 @@
+Options All -Indexes
+
+RewriteEngine On
+# Redirigir URLs amigables a index.php
+RewriteRule ^([-a-zA-Z0-9]+)$ index.php?ruta=$1 [L,QSA]
